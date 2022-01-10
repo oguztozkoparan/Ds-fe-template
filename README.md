@@ -1,6 +1,43 @@
-# Getting Started with Create React App
+# Typescrip-React-Tailwind Boilerplate
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Boilerplate Source File Structure
+
+```
+📂 src
+  📂 Assets
+    📁 Images
+    📁 SVGs
+
+  📂 BLoC
+    ...📁 bloc (n)
+    📂 bloc
+      📄{bloc}.tsx
+
+  📂 Components
+    ...📁 Component (n)
+    📁 Animations
+    📁 Auth
+    📂 Common
+      📁 Images
+      📁 SVGs
+
+  📂 Pages
+    ...📁 Page (n)
+    📂 Page
+      📁 Sections
+      📄 {Page}.tsx
+
+  📂 Sass
+    ...📁 other styles (n)
+    📄 style.scss
+
+  📂 Tests
+    ...📁 Test (n)
+
+  📄 App.tsx
+  📄 index.tsx
+
+```
 
 ## Available Scripts
 
@@ -44,3 +81,7 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+To learn usage of Typescript with React, check out the [Typescript with React](https://www.typescriptlang.org/docs/handbook/react.html).
+
+To learn usage of tailwind, check out the [Tailwind Documentation](https://tailwindcss.com/docs/installation) and [Tailwind with React](https://tailwindcss.com/docs/guides/create-react-app).
