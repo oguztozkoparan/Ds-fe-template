@@ -10,6 +10,13 @@
   ],
   "rules": {
     "no-console": "warn",
-    "prettier/prettier": 2
+    "prettier/prettier": [
+      "error",
+      {
+        "bracketSpacing": true,
+        "endOfLine": "auto",
+        "parser": "typescript"
+      }
+    ]
   }
 }

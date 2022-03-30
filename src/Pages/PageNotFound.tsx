@@ -1,8 +1,10 @@
-const PageNotFound = (): JSX.Element => {
+import { InnerContainer } from "../Components/Common/Containers/PageContainers/PageContainers";
+
+const PageNotFound: React.FC = (): JSX.Element => {
   return (
-    <div>
+    <InnerContainer>
       <p>Page Not Found</p>
-    </div>
+    </InnerContainer>
   );
 };
 
