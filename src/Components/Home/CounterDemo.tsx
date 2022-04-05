@@ -7,7 +7,7 @@ import { FlexContainer } from "../Common/Containers/FlexContainers/FlexContainer
 const CounterDemo = (): JSX.Element => {
   const counter = counterEntity.use();
 
-  // !Reminder: Also it is recommended these
+  // !Reminder: It is recommended these
   // actions to build in a component
   // these are just an example to
   // show how can simpler-state be

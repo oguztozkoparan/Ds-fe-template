@@ -20,8 +20,8 @@
     "web-vitals": "^2.1.2"
   },
   "scripts": {
-    "lint": "eslint ./src/** --ext .ts",
-    "lint-and-fix": "eslint ./src/** --ext .ts --fix",
+    "lint": "eslint './src/**' --ext .ts",
+    "lint-fix": "eslint './src/**' --ext .ts --fix",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

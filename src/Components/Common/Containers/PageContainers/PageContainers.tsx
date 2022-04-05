@@ -1,5 +1,18 @@
-//TODO: create a section container to use outer and inner together
 //TODO: change div to section with role logic
+export const FullContainer = ({
+  outerProps,
+  innerProps,
+  children,
+}: {
+  outerProps?: React.HTMLAttributes<HTMLDivElement>;
+  innerProps?: React.HTMLAttributes<HTMLDivElement>;
+  children: React.ReactNode;
+}) => (
+  <OuterContainer {...outerProps}>
+    <InnerContainer {...innerProps}>{children}</InnerContainer>
+  </OuterContainer>
+);
+
 export const OuterContainer = ({
   className,
   ...props

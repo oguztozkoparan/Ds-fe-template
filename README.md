@@ -9,23 +9,29 @@
     📁 SVGs
 
   📂 BLoC
-    ...📁 bloc (n)
-    📂 bloc
-      📄{bloc}.tsx
+    ...📁 {BLoCName}.bloc (n)
+    📂 {BLoCName}.bloc
+      📄{BLoCName}.bloc.tsx
+      📄{BLoCName}.types.tsx
 
   📂 Components
     ...📁 Component (n)
     📁 Animations
-    📁 Auth
     📂 Common
       📁 Images
       📁 SVGs
+    📂 {ComponentName} (n)
+      📄 {ComponentName}.tsx
+      📄 {ComponentName}.types.tsx
 
   📂 Pages
     ...📁 Page (n)
     📂 Page
-      📁 Sections
-      📄 {Page}.tsx
+    ...📁 Section (n)
+      📂 {SectionName}
+        📄 {SectionName}.tsx
+        📄 {SectionName}.types.tsx
+      📄 {PageName}.tsx
 
   📂 Sass
     ...📁 other styles (n)
