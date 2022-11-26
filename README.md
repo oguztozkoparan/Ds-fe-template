@@ -1,6 +1,6 @@
-# Typescrip-React-Tailwind Boilerplate
+# Typescrip-React-Tailwind Template
 
-## Boilerplate Source File Structure
+## Template Source File Structure
 
 ```
 📂 src
